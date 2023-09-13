@@ -1,5 +1,4 @@
-# paulazorra
-haciendo la zorroniacion
+# Ham ham
 
 tarea 1:
 quiero que en la pagina de "cuidados"
