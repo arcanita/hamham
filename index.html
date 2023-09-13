@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="es"> 
+<head>
+	<meta charset="utf-8">
+	<title>Ham Ham</title>
+	
+	<link  rel="stylesheet" href="css/style.css">
+	<link id="theme" rel="stylesheet" href="css/soft.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!--slider-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+	<!-- mis scripts-->
+	<script src="js/main.js"></script>
+
+	<!-- moment -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/es-do.min.js"></script>
+</head>
+<body>
+	<div id="selector-theme">
+		<div id="to-soft"></div>
+		<div id="to-dark"></div>
+	</div>
+	<section id="global">
+		
+		<!--header-->
+		<header>
+			<div id="logo">
+
+			</div>
+
+			<div class="clearfix"></div>
+
+			<nav id="menu">
+				<ul>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Adopción</a></li>
+					<li><a href="#">Cuidados</a></li>
+					<li><a href="#">Venta Accesorios</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!--slider-->
+		<div id="slider">
+			<div class="bxslider">
+				<div><img src="img/venta.png" title="Venta de accesorios"></div>
+				<div><img src="img/adopcion.png" title="Adopción de hamsters"></div>
+				<div><img src="img/cuidados.png" title="Cuidados de los hamsters"></div>
+				</div>
+		</div>
+
+		<!-- contenido-->
+		<section id="content">
+
+			<div id="posts">
+
+				<!-- Cargar los posts desde un json-->
+
+			</div>
+
+			<aside id="sidebar">
+				<div id="about">
+					<h4><span>¿Quienes somos?</span></h4>
+					<img src="img/gif.gif" />
+					<p>
+						Esta es una página dedicada a los hamsters, aqui puedes encontrar venta de artículos, adopción, noticias y novedades sobre los pequeños.
+					</p>
+				</div>
+
+				<div id="login">
+					<h4><span>Ingresar</span></h4>
+					<form>
+						<label for="name">Email</label>
+						<input type="email" name="email">
+						<label for="password">Password</label>
+						<input type="password" name="clave">
+						<input type="submit" value="Entrar">
+					</form>
+				</div>
+			</aside>
+
+			<div class="clearfix"></div>
+		</section>
+
+	</section>
+
+	<footer>
+		Página orientada para hamsters
+	</footer>
+
+
+</body>
+
+</html>
+

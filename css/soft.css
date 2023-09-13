@@ -1,0 +1,72 @@
+
+body{
+	background: url('../img/bg.jpg');
+	background-attachment: fixed;
+}
+
+
+#logo{
+	background: url('../img/logo.png');
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 318px;
+}
+
+#menu{
+	background: #ffb6b9;
+	
+}
+
+
+
+#menu ul li:hover{
+	background: #f4dada ;
+}
+
+
+
+.post{
+	padding: 7px;
+}
+
+.post h2{
+	font-size: 30px;
+	color: #ffb6b9;
+}
+
+.post .date{
+	display: block;
+	color: #abc2e8;
+	margin-top: 5px;
+}
+
+
+
+.button-more{
+	background: #beebe9;
+
+}
+
+#sidebar h4{
+
+	background: #f6eec7;
+}
+
+
+form input[type="email"],
+form input[type="password"]{
+	
+	border: 1px solid #abc2e8;
+	
+}
+
+form input[type="submit"]{
+	background: #ffb6b9;
+
+}
+
+footer{
+
+	background: rgba(51, 51, 51, 0.70);
+
+}

@@ -1,0 +1,72 @@
+
+body{
+	background: url('../img/bg2.gif');
+	background-attachment: fixed;
+}
+
+
+#logo{
+	background: url('../img/logo_dark.png');
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 318px;
+}
+
+#menu{
+	background: #202060;
+	
+}
+
+
+
+#menu ul li:hover{
+	background: #b030b0 ;
+}
+
+
+
+.post{
+	padding: 7px;
+}
+
+.post h2{
+	font-size: 30px;
+	color: #b030b0;
+}
+
+.post .date{
+	display: block;
+	color: #602080;
+	margin-top: 5px;
+}
+
+
+
+.button-more{
+	background: #202040;
+
+}
+
+#sidebar h4{
+
+	background: #b030b0;
+}
+
+
+form input[type="email"],
+form input[type="password"]{
+	
+	border: 1px solid #602080;
+	
+}
+
+form input[type="submit"]{
+	background: #602080;
+
+}
+
+footer{
+
+	background: rgba(51, 51, 51, 0.70);
+
+}
