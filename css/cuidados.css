@@ -1,0 +1,14 @@
+
+#global {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f4dada;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#global img {
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
